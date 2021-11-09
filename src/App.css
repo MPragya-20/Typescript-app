@@ -2,7 +2,7 @@ body{
     background-image: linear-gradient(rgb(111, 42, 139), rgb(61, 143, 211));
     background-size: cover;
     background-repeat: no-repeat;
-    height: 710px;
+    height: 870px!important;
 }
 .main-page-outer{
     width: 500px;
@@ -68,7 +68,7 @@ label{
 }
 @media only screen and (max-width:800px){
     body{
-        height: 610px;
+        height: 600px;
     }
     .main-page-outer{
         width: 300px!important;
