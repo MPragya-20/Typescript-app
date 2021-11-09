@@ -1,0 +1,104 @@
+body{
+    background-image: linear-gradient(rgb(111, 42, 139), rgb(61, 143, 211));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 710px;
+}
+.main-page-outer{
+    width: 500px;
+    margin: auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.384), rgba(231, 231, 231, 0.432));
+    margin-top: 150px;
+    padding:40px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgb(68, 68, 68);
+}
+input,.compute-btn,label{
+    padding: 15px;
+    margin:10px 80px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    width: 310px;
+    background-color: rgb(214, 225, 236);
+}
+label{
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(63, 120, 206);
+}
+.compute-btn{
+    background-color: rgb(66, 114, 218)!important;
+    padding: 10px 10px;
+    width: 340px;
+    color: white;
+    box-shadow: 3px 4px 5px #424242;
+    cursor: pointer;
+}
+.compute-btn:active{
+    transform: scale(1.05);
+}
+#result{
+    padding: 30px;
+    width: 100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-align: center;
+    color: #7a7979;
+    font-weight: bold;
+}
+.like{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.fa-thumbs-up{
+    font-size: 1.9rem;
+}
+#complement{
+    padding: 30px;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-align: center;
+    color: #7a7979;
+}
+@media only screen and (max-width:800px){
+    body{
+        height: 610px;
+    }
+    .main-page-outer{
+        width: 300px!important;
+        margin-top:80px;
+    }
+    input,.compute-btn,label{
+        padding: 5px;
+        margin:10px 45px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        font-size: 1.1rem;
+        width: 200px;
+        background-color: rgb(214, 225, 236);
+        
+    }
+    label{
+        background-color: transparent;
+        color: rgb(63, 120, 206);
+        font-weight: lighter;
+    }
+    #complement{
+        padding: 10px;
+        width: 100px;
+        margin: auto;
+        margin-top: 5px;
+    }
+    #result{
+        padding: 10px;
+        width: 70px;
+        margin: auto;
+    }
+}
